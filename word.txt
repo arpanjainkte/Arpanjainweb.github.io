@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+    <head>
+        <title> 9x9 Computers </title>
+        <link rel="shortcut icon" href="../icon folder/img/2.png" >    
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial scale=1.0">
+        <meta name="keywords" content="Best Computer shop ,Best Repairing shop in Madhya Pradesh,Maharastra,US"> 
+        <meta name="description" content="Online store in India for graphics card, motherboard, processor, solid state drive, gaming cabinet, keyboard, mouse, power supply, gaming accessories etc."
+        <meta name="author" content="Mrs.Rajendra Kumar Jain ">
+        
+        <style type="text/css">
+            
+           
+                
+            menu div{
+                    width: 200px;
+                    height: 20px;
+                    padding: 20px;
+                    color: darkgrey;
+                    text-align: center;
+                    display:ruby;
+                    margin-top: 20px;
+                    font-size: 30px;
+                    font-weight: bold;
+
+            }
+            menu div:hover{
+                background-color: lightgray;
+                color:darkgrey;
+                cursor: grab;
+                border-radius: 30px;
+
+            }
+            dialog{
+                margin-left: 1750px;
+                margin-top: -30px;
+            }
+            footer{
+                
+                text-align: center;
+                padding: 10px;
+                color: black;
+                font-size: 70px;
+                margin-top: 30px;
+                font-style: italic;
+                font-weight: bold;
+
+            }
+           
+            section{
+                height: 500px;
+            }
+            body{
+                background-attachment: fixed;
+                background-color: rgba(0,0,0,0.3);
+            }
+           
+            .container{
+                display: grid;
+                grid-template-columns: 250px 250px 250px 250px;
+                justify-content: space-around;
+                height: 300px;
+                font-size: 20px;
+                
+
+            }
+            .container div{
+                margin-bottom: 10px;
+            }
+            .heading{
+                font-size: 30px;
+                padding-top: 20px;
+                font-style: oblique;
+                font-weight: bold;
+            }
+            .logos{
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                
+                
+
+            }
+            .box{
+                background-color: black;
+                height: 400px;
+                padding-bottom: 70px;
+                margin-top: 40px;
+                margin-bottom: -30px;
+                margin-left: -20px;
+                margin-right: -8px;
+                color: white;
+            }
+            .sub-topics{
+                display: grid;
+                grid-template-columns: 225px 225px 225px 225px;
+                justify-content: space-around;
+
+            }
+            .topics{
+                margin-top: 30px;
+            }
+            .copyright{
+                text-align: center;
+                color: white;
+                font-size: 20px;
+
+            }
+            .company{
+                text-align: left;
+                margin-top: 400px;
+                font-size: 30px;
+                color: lightgray;
+                font-style: italic;
+                background-color: black;
+                padding: 10px;
+                margin-left: -10px;
+                margin-right: -10px;
+                margin-bottom: -20px;
+                
+
+            }
+            .button{
+                margin-left: 1800px;
+                margin-top: -1185px;
+                margin-bottom: 1200px ;
+                font-weight: bold;
+                font-size: 18px;
+                cursor: pointer;
+                position: fixed;
+                
+                
+            }
+         
+            
+           .loginbox{
+               width: 1800px;
+               height: 230px;
+               position: sticky;
+               top: 0px;
+               box-sizing: border-box;
+               cursor: pointer;
+               padding: 0px;
+               margin: 0px;
+           }
+            .info{
+               margin-left: 270px;
+               margin-top: -220px;
+               margin-right: 20px;
+               font-size: 18px;
+               display: flex;
+               grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+               padding: 0;
+               position: fixed;
+           }
+           ol{
+               font-weight: bold;
+               
+
+           }
+           summary{
+               display: grid;
+               grid-template-columns: 130px;
+           }
+           .bi-pc-display{
+               font-size: 50px;
+
+           }
+           .bi-printer-fill{
+               font-size: 50px;
+           }
+           .bi-mouse3-fill{
+               font-size: 50px;
+           }
+           .bi-camera-video-fill{
+               font-size: 50px;
+           }
+           .bi-tv-fill{
+               font-size: 50px;
+           }
+           .bi-phone-fill{
+               font-size: 50px;
+           }
+           .bi-earbuds{
+               font-size: 50px;
+           }
+           .bi-projector-fill{
+               font-size: 50px;
+           }
+           .bi-headphones{
+               font-size: 50px;
+           }
+           .bi-laptop-fill{
+               font-size: 50px;
+           }
+           .bi-mic-fill{
+               font-size: 50px;
+           }
+           .bi-apple{
+               font-size: 50px;
+
+           }
+           .bi-webcam{
+               font-size: 50px;
+           }
+           
+           
+           aside{
+               position: fixed;
+               left: 20px;
+               bottom: 20px;
+               font-size: 30px;
+               padding: 20px ;
+           }
+           aside:hover{
+              
+               cursor: pointer;
+           }
+           .bi-door-open-fill{
+               font-size: 50px;
+           }
+         
+        </style>
+     
+
+
+    </head>
+    <body background="../icon folder/img/5.jpg" text="black"  alink="red" > 
+      
+        <header>
+            <div class="loginbox">
+            <img src="../icon folder/img/3.png" class="avatar" alt="Image Here" title="logo"> 
+           
+            <div class="info">
+                
+                <details>
+                    <summary class="bi bi-pc-display"></summary>
+                    <ol type="1">
+                        <li>Dell</li>
+                        <li>Hp</li>
+                        <li>Lenovo</li>
+                        <li>Acer</li>
+                        <li>Asus</li>
+                        <li>Wipro</li>
+                    </ol>
+                   
+                </details>
+                <details>
+                    <summary class="bi bi-laptop-fill"></summary>
+                    <ol>
+                        <li>Dell</li>
+                        <li>Hp</li>
+                        <li>Lenovo</li>
+                        <li>Acer</li>
+                        <li>Asus</li>
+                        <li>Wipro</li>
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-printer-fill"></summary>
+                    <ol>
+                        <li>Epson</li>
+                        <li>Hp</li>
+                        <li>Pantum</li>
+                        <li>Canon</li>
+                        <li>Brother</li>
+
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-mouse3-fill"></summary>
+                    <ol>
+                        <li>TVS</li>
+                        <li>Zebronics</li>
+                        <li>Wipro</li>
+                        <li>Hp</li>
+                        <li>Intex</li>
+                        
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-camera-video-fill"></summary>
+                    <ol>
+                        <li>CP-Plus</li>
+                        <li>Nikon</li>
+                        <li>Webcam</li>
+                        <li>Bosch</li>
+                        <li>Samsung</li>
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-tv-fill"></summary>
+                    <ol>
+                        <li>LG</li>
+                        <li>AOC</li>
+                        <li>Samsung</li>
+                        <li>Mi</li>
+
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-phone-fill"></summary>
+                    <ol>
+                        <li>Vivo</li>
+                        <li>Oppo</li>
+                        <li>Samsung</li>
+                        <li>One-Plus</li>
+                        <li>Realme</li>
+                        <li>Redmi</li>
+
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-earbuds"></summary>
+                    <ol>
+                        <li>Fingers</li>
+                        <li>Realme</li>
+                        <li>Firebolt</li>
+                        <li>Mi</li>
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-projector-fill"></summary>
+                    <ol>
+                        <li>Epson</li>
+                        <li>Canon</li>
+                        <li>Hp</li>
+                        <li>Brother</li>
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-headphones"></summary>
+                    <ol>
+                        <li>Fingers</li>
+                        <li>Idea</li>
+                        <li>Gaming</li>
+                        <li>Logitech</li>
+                        <li>Hp</li>
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-mic-fill"></summary>
+                    <ol>
+                        <li>JBL</li>
+                        <li>Fingers</li>
+                        <li>Hp</li>
+
+                    </ol>
+                </details>
+                <details>
+                    <summary class="bi bi-apple"></summary>
+                    <ol>
+                        <li>Laptops</li>
+                        <li>Desktops</li>
+                        <li>Mobiles</li>
+                        <li>Earbuds</li>
+                        <li>Watch</li>
+                    </ol>
+                </details>
+                <div>
+                <button type="submit" name="" value="Log-In"><a href="9x9backend.html"><span class="bi bi-door-open-fill"></span></a></button>
+                </div>
+            </div>   
+            
+           
+            
+            </div>
+
+           
+        </header>
+        <aside>
+            <div><a href="http://www.facebook.com"><span class="bi bi-facebook"></span></a></div>
+            <div><a href="http://www.twitter.com"><span class="bi bi-twitter"></span></a></div>
+            <a href="http://www.youtube.com"><span class="bi bi-youtube"></span></a>
+            <a href="https://www.instagram.com/"><span class="bi bi-instagram"></span></a>
+            <a href="https://web.whatsapp.com/"><span class="bi bi-whatsapp"></span></a>
+
+        </aside>
+        <section>
+            <nav>
+                <menu>
+                    <div class="bi bi-house-fill"><a href="9x9 front.html">HOME</a></div>
+                    <div class="bi bi-shop"><a href="Products.html">PRODUCTS</a></div>
+                    <div class="bi bi-book">ABOUT</div>
+                   
+                    <div class="bi bi-check-square-fill">CAREERS</div>
+                    <div class="bi bi-telephone-fill"><a href="Register.html">CONTACTS</a></div>
+
+                </menu>
+            </nav>
+            <dialog open>
+                CHAT ASSISTANT
+            </dialog>
+
+        </section>
+      
+       
+        <footer>
+            Back to Top
+        </footer>
+        <div class="container">
+            <div>
+                <div class="heading">Get To Know Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+                <div>Press Releases</div>
+                <div>Customers Cares</div>
+                <div>Gift a Smile</div>
+            </div>
+            <div>
+                <div class="heading">Connect With Us </div>
+                <div class="bi bi-facebook">Facebook</div>
+                <div class="bi bi-twitter">Twitter</div>
+                <div class="bi bi-instagram">Instagram</div>
+                <div class="bi bi-youtube">YouTube</div>
+                <div class="bi bi-envelope">E-mail</div>
+            </div>
+            <div>
+                <div class="heading">Make Money With Us</div>
+                <div>Join With Us</div>
+                <div>Track Order</div>
+                <div>Terms Of Use</div>
+                <div>Contact Us</div>
+                <div>T&C</div>
+                <div>FAQ</div>
+            </div>
+            <div>
+               <div class="heading">Let Us Help You</div>
+               <div>COVID-19</div>
+               <div>Your Account</div>
+               <div>Returns Centre</div>
+               <div>100% Purchased Protection </div>
+               <div>Help</div>
+            </div>
+        </div>
+        
+        </div>
+        <div class="logos">
+            <div>
+            <img src="../icon folder/img/2.png" width="250px" height="150px" alt="Image Here">
+            </div>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                
+            
+            
+        <div class="company">
+            DELL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fingers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zebronics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lenovo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TVS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wipro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sony&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sandisk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tenda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AOC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Samsung&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HCL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asus
+        </div>  
+        <div class="box">
+            <div class="sub-topics">
+                <div>
+                    <div class="topics"><i class="bi bi-bookmark-check" >Abebooks</i></div>
+                    <div class="bi bi-bookmarks">Books Art <br>& Collectibles</div>
+                    
+                </div>
+                <div>
+                    <div class="topics">Web Services</div>
+                    <div class="bi bi-arrow-repeat"> Repairing Services</div>
+                    <div class="bi bi-motherboard">Computing Services</div>
+                </div>
+                <div>
+                    <div class="topics"><i class="bi bi-printer">Printers</i></div>
+                    <div class="bi bi-laptop">Laptops</div>
+                    <div class="bi bi-pc-display-horizontal">Desktops</div>
+                </div>
+                <div>
+                    <div class="topics"><i class="bi bi-caret-down-square">Digital Accessoires</i></div>
+                    <div class="bi bi-display">Monitors</div>
+                    <div class="bi bi-camera">Cameras</div>
+                </div>
+                <div>
+                    <div class="topics">CP Plus</div>
+                    <div>Hikvision</div>
+                    <div>Bosch</div>
+                </div>
+                <div>
+                    <div class="topics">T.V</div>
+                    <div>AOC</div>
+                    <div>SAMSANG</div>
+                </div>
+                <div>
+                    <div class="topics">Fingers</div>
+                    <div>DELL</div>
+                    <div>hp</div>
+                </div>
+                <div>
+                    <div class="topics">Keyboard</div>
+                    <div>Mouse</div>
+                    <div>Pendrive</div>
+                </div>
+                <div>
+                    <div class="topics">Powders</div>
+                    <div>  Printer Ink </div>
+                    <div>JK Papers</div>
+                </div>
+        
+            </div>
+
+        </div>  
+        <div class="copyright">
+            Conditions of Use & SalePrivacy NoticeInterest-Based Ads© 1996-2021, Amazon.com, Inc. or its affiliates
+        </div>
+
+    </body>
+</html>    
+
